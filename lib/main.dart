@@ -1,10 +1,11 @@
+import 'package:bmi_calc/homepage.dart';
 import 'package:flutter/material.dart';
 void main() => runApp(
     MaterialApp(
       theme: ThemeData(
           primaryColor:Color(0xff1248a6)
       ),
-      home: MyApp(),
+      home: homepage(),
       debugShowCheckedModeBanner: false,
     )
 );
